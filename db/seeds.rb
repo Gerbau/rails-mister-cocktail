@@ -1,6 +1,6 @@
 # db/seeds.rb
-require ‘json’
-require ‘open-uri’
+require 'json'
+require 'open-uri'
 
 url = "https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list"
 data = open(url).read
